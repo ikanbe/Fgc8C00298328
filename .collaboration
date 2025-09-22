@@ -131,16 +131,7 @@
   },
   {
     "ModuleName": "PCPage/help",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Kanbe",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-09-22T10:06:35.2988162+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\help.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/buginfo",
