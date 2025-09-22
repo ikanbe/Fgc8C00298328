@@ -1,1 +1,217 @@
-[{"ModuleName":"Table/Bug","ModuleType":7,"ExclusiveType":0},{"ModuleName":"TableView/ユーザー情報ビュー","ModuleType":23,"ExclusiveType":0},{"ModuleName":"Table/BugCategory","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/BugHistory","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/BugPriority","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Table/BugStatus","ModuleType":7,"ExclusiveType":0},{"ModuleName":"Pages/ビルトイン ページ","ModuleType":6},{"ModuleName":"PCPage/FGC_401ページ","ModuleType":1},{"ModuleName":"PCPage/FGC_ただいまメンテナンス中です","ModuleType":1},{"ModuleName":"PCPage/FGC_パスワードのリセット","ModuleType":1},{"ModuleName":"PCPage/FGC_パスワードのリセット用リンクの送信","ModuleType":1},{"ModuleName":"PCPage/FGC_パスワードの変更","ModuleType":1},{"ModuleName":"PCPage/FGC_パスワードを忘れた場合","ModuleType":1},{"ModuleName":"PCPage/FGC_プロファイルの編集","ModuleType":1},{"ModuleName":"PCPage/FGC_メールサブスクリプション","ModuleType":1},{"ModuleName":"PCPage/FGC_ログイン","ModuleType":1},{"ModuleName":"PCPage/FGC_認証アプリの構成","ModuleType":1},{"ModuleName":"PCPage/FGC_コードの入力","ModuleType":1},{"ModuleName":"Pages/ビルトイン モバイルページ","ModuleType":6},{"ModuleName":"MobilePage/FGC_401ページ_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_ただいまメンテナンス中です_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_パスワードのリセット_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_パスワードのリセット用リンクの送信_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_パスワードの変更_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_パスワードを忘れた場合_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_プロファイルの編集_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_メールサブスクリプション_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_ログイン_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_認証アプリの構成_モバイル","ModuleType":2},{"ModuleName":"MobilePage/FGC_コードの入力_モバイル","ModuleType":2},{"ModuleName":"PCPage/addoreditbug","ModuleType":1},{"ModuleName":"PCPage/help","ModuleType":1},{"ModuleName":"PCPage/buginfo","ModuleType":1},{"ModuleName":"PCPage/history","ModuleType":1},{"ModuleName":"PCPage/list","ModuleType":1},{"ModuleName":"PCPage/statistics","ModuleType":1},{"ModuleName":"PCPage/drilldownstatus","ModuleType":1},{"ModuleName":"PCPage/drilldownassignto","ModuleType":1},{"ModuleName":"MasterPCPage/FGC_ユーザーマスターページ","ModuleType":3},{"ModuleName":"MasterPCPage/masterpage","ModuleType":3},{"ModuleName":"MasterPCPage/masterpagewithoutmenu","ModuleType":3},{"ModuleName":"ApplicationSetting","ModuleType":8},{"ModuleName":"Theme","ModuleType":9},{"ModuleName":"ImageSelector","ModuleType":10},{"ModuleName":"UserService","ModuleType":11},{"ModuleName":"CustomLibrary","ModuleType":12},{"ModuleName":"ShareCommand","ModuleType":13},{"ModuleName":"MapJsonFile","ModuleType":14},{"ModuleName":"DataContectionSet","ModuleType":25},{"ModuleName":"Upload","ModuleType":26}]
+[
+  {
+    "ModuleName": "Table/Bug",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableView/ユーザー情報ビュー",
+    "ModuleType": 23,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/BugCategory",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/BugHistory",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/BugPriority",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/BugStatus",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Pages/ビルトイン ページ",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/FGC_401ページ",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_ただいまメンテナンス中です",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_パスワードのリセット",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_パスワードのリセット用リンクの送信",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_パスワードの変更",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_パスワードを忘れた場合",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_プロファイルの編集",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_メールサブスクリプション",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_ログイン",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_認証アプリの構成",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_コードの入力",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/ビルトイン モバイルページ",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "MobilePage/FGC_401ページ_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_ただいまメンテナンス中です_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_パスワードのリセット_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_パスワードのリセット用リンクの送信_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_パスワードの変更_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_パスワードを忘れた場合_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_プロファイルの編集_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_メールサブスクリプション_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_ログイン_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_認証アプリの構成_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_コードの入力_モバイル",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "PCPage/addoreditbug",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/help",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Kanbe",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-22T09:22:43.7293732+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\help.json"
+    ]
+  },
+  {
+    "ModuleName": "PCPage/buginfo",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/history",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/list",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/statistics",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/drilldownstatus",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/drilldownassignto",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/masterpage",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/masterpagewithoutmenu",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "ApplicationSetting",
+    "ModuleType": 8
+  },
+  {
+    "ModuleName": "Theme",
+    "ModuleType": 9
+  },
+  {
+    "ModuleName": "ImageSelector",
+    "ModuleType": 10
+  },
+  {
+    "ModuleName": "UserService",
+    "ModuleType": 11
+  },
+  {
+    "ModuleName": "CustomLibrary",
+    "ModuleType": 12
+  },
+  {
+    "ModuleName": "ShareCommand",
+    "ModuleType": 13
+  },
+  {
+    "ModuleName": "MapJsonFile",
+    "ModuleType": 14
+  },
+  {
+    "ModuleName": "DataContectionSet",
+    "ModuleType": 25
+  },
+  {
+    "ModuleName": "Upload",
+    "ModuleType": 26
+  }
+]
