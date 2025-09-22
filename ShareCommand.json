@@ -1,0 +1,81 @@
+[
+  {
+    "ID": "a1c42607-1283-497f-a9ee-b315058c0843",
+    "Name": "不具合登録の更新",
+    "Params": [
+      {
+        "ID": "75f567e3-09c4-43ae-af83-50125a559dff",
+        "Name": "BugID"
+      },
+      {
+        "ID": "9c5ad32e-d3ed-4ede-9cf8-fcedc247acc8",
+        "Name": "ChangeDate"
+      },
+      {
+        "ID": "1951f315-ee3d-40aa-9eb8-8605ccd045cf",
+        "Name": "ChangeType"
+      },
+      {
+        "ID": "86eb30a0-282b-4990-8545-e43698fe835c",
+        "Name": "Comment"
+      }
+    ],
+    "Commands": [
+      {
+        "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+        "TableName": "Bug",
+        "ShowConfirm": false,
+        "ConfirmText": "更新してもよろしいですか？",
+        "UpdateValues": [
+          {
+            "ColumnName": "Comment",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Comment"
+            }
+          }
+        ],
+        "NextUpdateDataTableCommand": {
+          "TableName": "BugHistory",
+          "UpdateType": "add",
+          "ShowConfirm": false,
+          "ConfirmText": "本当に追加してもよろしいですか？",
+          "UpdateValues": [
+            {
+              "ColumnName": "BugID",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=BugID"
+              }
+            },
+            {
+              "ColumnName": "ChangeDate",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=ChangeDate"
+              }
+            },
+            {
+              "ColumnName": "ChageType",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=ChangeType"
+              }
+            },
+            {
+              "ColumnName": "ChangeUser",
+              "Value": "%CurrentUser%"
+            },
+            {
+              "ColumnName": "Comment",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Comment"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

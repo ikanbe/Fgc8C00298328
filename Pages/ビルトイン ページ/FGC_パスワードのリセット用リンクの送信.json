@@ -1,0 +1,93 @@
+{
+  "Rows": {
+    "Count": 26
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "6,12": "パスワードを忘れた場合",
+    "10,12": "パスワードリセットのためのリンクがメールで送信されました。メール受信後、そのリンクをクリックし、開いたページて新しいパスワードを入力してください。メールが届かない場合は、管理者に問い合わせてください。",
+    "17,29": "ログイン"
+  },
+  "AttachInfos": {
+    "17,29": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_ログイン",
+            "PassValues": [],
+            "IgnoreTargetPageCachedCurrentRowInfo": false
+          }
+        ],
+        "Text": "ログイン",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 0,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "6,12": 0,
+      "10,12": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "6,12,3,23",
+    "17,29,2,6",
+    "10,12,5,23"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "0dc0080d-7217-442c-8fa6-481c8c5d690a.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_ユーザーマスターページ",
+    "MobilePageName": "FGC_パスワードのリセット用リンクの送信_モバイル",
+    "Title": "パスワードを忘れた場合",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//rdcu2/8J+3bQ8hrjgW132Ft9k/bxC2ZziPn/MqKJgNnnvvLbE+PXYueINgfw27sXdcOYSpgd9wKOnvNr6Bpvxb6bHFLLcyOHBBlmWn3dHJHFyHAwThXFKh2jD7wiGkUaGCbXiyapOuXEoQgw6nnnkrAeEdsRUUOE7XOpi2hJgKX3OzOkon86y0gMDkFYVBaXMKaBqNSUiWXt6VNIOJfXFRzJwZxeh3H75bTPa/8o6H/MdGWQQkCCcNlK5v2J4h4Bf6VevuyfbbW1S9IMD2XWNyVhrDIl0k6K6pfvW9cJhpc/T1qxvf8NFCGWzexCKk2MzlwdAvb3Y3rmBRyineJ7tgCzFohrFPjoBsFAZ8VM26jpgsRtumA8Tp/ulOupn3CCleMDlJIJiICdeOCbwiOSg6k95dvBZ4T7fPa0ghJLWcJ0vAsf5kHzqcpomwOBc5dsjZiR9N+wBceXIu26YuEDBtKtkW272UU1HAsaJ7DXGjx30o93sNS8QnyYkK/H/UGTkf4eyMedets6wJ4I1bn12i8n5IAvzIk9jcD3KJJzelKXA5davWanR3nE4fbXb1RFonbavQmJATmO/gyVVXPaBskATbuyl5wqFR/kpb3ijYRUCsRErnPnjflDxqtJkbKnSvJY9tO2xke3h5tGTjPxLZ5cKVlmczMkk6TKXHw39RW67xlbF4+gKmpVOEjjaszX3ZlITCG0VvVYv54YB+VlfZ/eE2++N/ZDHfNiBatuPxEYc7/gNeGBR50bOizAp+QJvbRIJXQB5nvTgIoOe64O9RE93VUf+pwsf+6Z8lGWO3a0+7Tw0iCoRi2sevyPVqVZDy2Dmyu+2L52zk8VVNxcKtIfK9R/XTWAzhfFg1hNM3YfBe48LPUyCQkPGfE+cIUHnkhQHkvnsASEIwSHndlq4Q==|920

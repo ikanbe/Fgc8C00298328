@@ -1,0 +1,376 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 21
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      34,
+      35
+    ],
+    "Count": 36
+  },
+  "AttachInfos": {
+    "3,34": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "Bug",
+        "RowIndex": 3,
+        "ColumnIndex": 34,
+        "ColumnCount": 2,
+        "RowCount": 7,
+        "ColumnOperation": 2,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "リストビュー1",
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "Condition1": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "Condition1": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "Bug",
+                    "ColumnName": "AssignTo",
+                    "AttachType": {
+                      "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
+                      "UserColumnAttachType": 1
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=drilldownassignto!c担当者"
+                  }
+                },
+                "Condition2": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "Bug",
+                    "ColumnName": "FGC_Creator"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=drilldownassignto!c作成者"
+                  }
+                }
+              },
+              "Condition2": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "Bug",
+                  "ColumnName": "StatusID"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=drilldownassignto!cステータス"
+                }
+              }
+            },
+            "Condition2": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "Bug",
+                "ColumnName": "StatusID",
+                "RelationBinding": {
+                  "RelatedTable": "BugStatus",
+                  "RelatedColumn": "ID",
+                  "DisplayColumn": "Name"
+                }
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=drilldownassignto!cステータスName"
+              }
+            }
+          },
+          "Condition2": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "Bug",
+              "ColumnName": "FGC_CreateDate"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=drilldownassignto!c作成日"
+            }
+          }
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "4,34": {
+      "BindingInfo": {
+        "TableName": "Bug",
+        "ColumnName": "AssignTo",
+        "AttachType": {
+          "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
+          "UserColumnAttachType": 1
+        }
+      }
+    },
+    "4,35": {
+      "BindingInfo": {
+        "TableName": "Bug",
+        "ColumnName": "Count"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 16.0,
+        "FontWeight": 0,
+        "Foreground": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "#FF394047",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "5,34,5,2"
+  ],
+  "Charts": [
+    {
+      "ChartType": 22,
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "DataSeries": [
+        {
+          "Values": [
+            105.0,
+            105.0,
+            210.0,
+            105.0,
+            105.0
+          ],
+          "Name": "Count",
+          "MarkerSize": "7,7",
+          "DataPoints": [
+            {
+              "StyleInfo": {
+                "Fill": "Accent 1",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            },
+            {
+              "PointIndex": 1,
+              "StyleInfo": {
+                "Fill": "Accent 2",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            },
+            {
+              "PointIndex": 2,
+              "StyleInfo": {
+                "Fill": "Accent 3",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            },
+            {
+              "PointIndex": 3,
+              "StyleInfo": {
+                "Fill": "Accent 4",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            },
+            {
+              "PointIndex": 4,
+              "StyleInfo": {
+                "Fill": "Accent 5",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            }
+          ]
+        }
+      ],
+      "XAxises": [
+        {
+          "Items": [
+            null,
+            "Hideki",
+            "Ikuma",
+            "Kazuaki",
+            "Keiko"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.5
+        }
+      ],
+      "YAxises": [
+        {
+          "Items": [
+            0.0,
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0
+          ],
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 50.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 10.0
+        },
+        {
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.02,
+          "Visible": false,
+          "AxisPosition": 1
+        }
+      ],
+      "Legend": {},
+      "PlotArea": {},
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "ChartName": "Chart1",
+        "DataSeriesMapping": [
+          {
+            "SheetName": "drilldownassignto",
+            "ListViewName": "リストビュー1",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=drilldownassignto!AJ5"
+            }
+          }
+        ],
+        "ItemsMapping": {
+          "SheetName": "drilldownassignto",
+          "ListViewName": "リストビュー1",
+          "ListViewColumnFormula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=drilldownassignto!AI5"
+          }
+        }
+      },
+      "Name": "Chart1",
+      "Location": "19,59",
+      "Size": "643,343"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "c担当者",
+      "Formula": "drilldownassignto!$AI$12"
+    },
+    {
+      "Name": "c作成者",
+      "Formula": "drilldownassignto!$AI$13"
+    },
+    {
+      "Name": "cステータス",
+      "Formula": "drilldownassignto!$AI$14"
+    },
+    {
+      "Name": "c作成日",
+      "Formula": "drilldownassignto!$AI$15"
+    },
+    {
+      "Name": "cステータスName",
+      "Formula": "drilldownassignto!$AJ$14"
+    }
+  ]
+}//pR5JxBHlGhYfO5f2ZVzg5qN+y1kJUbwfCWi3vvTYrMOB0joOuWLZhlqfTwxV98SJ3GicIgsD4DUibREnkCswauV56hBVafyGWVQ5AKfXFqifxIPxWg+8s+eBCvDhzCUTQUZamHorkmHDsBZ0C1tjT1zCxAe12+nj087xQGa/++jdrWo3PzXbJ8Sv6I6RS/ciFYMAO1Z4qmWSDFqsQsT8oXhhHS3G/uyNmHrH9mU/EsCqwnizap5W1XqrIJL5PUbCBIyqUBsKKjm5tKIUHox/jh5dGscKnGgvT+7jbhQbnoylGbp8ZhT/YYVyoIgvW50zbALzxKYYmwqt/dJNrn56dzQEvcqtui6+t1/rkRERxniWC/0g7/kMizjqhTuicAPP70J+SyTZax1xp+2NNx7VhFz6/wxNGQp7TUGsnGaFBM4l59uqgTkeQRxaxPNu4xX9hA6Rs1OY1W6rnrSPA6ndSii4pqcwr+W9kEsiwrbb2P3YxzJ2sRUMJjEPJrsEuGUUtBlznfDunZgBr/hyMVQBfz5pirhfxtlO8xumLtcSzv9ilkyR9BeX4ilbYXsfBHNhuVJ+j9ko9k2fYGn3Fu9aaAJl/i+fVHu2Dsba5uFr5v5IbAj3zPa1QRW4UCsB5WxBBpioKE8ylyLEbq4970n+YTM2WZcuqBE838gkO3iorH7upF3SOIIOxA/85Ohh6MGj1KFupycnB6KIYYL9jcIi+fDsAuCTdyDIUKnhkq+zH1/SLaD1PJvaFhvwnjkzhqcqkIAn5dM/Ey8uFTBQenFzwFf9fNMc6FBm2ollsU4rtlsvCG/MgbPC6Zor4NcgUM0KCMKmQy2nJQqoTKw3Cf6DqpAfq3omp9vQ53FW9svD2xkn/HGoDP0nbLtZ4+e86KF+Ygxsts3vB8l348b4PBMsjA==|920

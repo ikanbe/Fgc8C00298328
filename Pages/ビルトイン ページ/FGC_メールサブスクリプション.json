@@ -1,0 +1,207 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 20.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 40
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 13.0
+        }
+      },
+      "51": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 33.0
+        }
+      }
+    },
+    "Count": 52
+  },
+  "Values": {
+    "5,15": "メールによる通知設定",
+    "8,15": "通知設定の種類を選択してください。",
+    "19,27": "OK",
+    "19,33": "キャンセル"
+  },
+  "AttachInfos": {
+    "10,18": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<None>",
+        "Style": 1,
+        "LayoutMode": 1,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "通知しない"
+          },
+          {
+            "Value": "1",
+            "DisplayValue": "すべての変更を通知する"
+          },
+          {
+            "Value": "2",
+            "DisplayValue": "自分以外のユーザーからの変更を通知する"
+          },
+          {
+            "Value": "3",
+            "DisplayValue": "自身が作成したレコードの変更のみ通知"
+          },
+          {
+            "Value": "4",
+            "DisplayValue": "自身が担当者に割り当てられているレコードの変更のみ通知"
+          }
+        ],
+        "ForguncyAttribute": "MailSubscription_Choice"
+      }
+    },
+    "19,27": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "OK",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "MailSubscription_Button"
+      }
+    },
+    "19,33": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": [],
+            "IgnoreTargetPageCachedCurrentRowInfo": false
+          }
+        ],
+        "Text": "キャンセル",
+        "TemplateKey": "_RS_Outline_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Underline": null,
+        "Strikethrough": null
+      },
+      {
+        "FontSize": 37.333332061767578,
+        "Foreground": 0
+      },
+      {
+        "Foreground": 0
+      },
+      {
+        "FontSize": 13.333333015441895,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 14.0,
+        "FontWeight": 1
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 14.0,
+        "FontWeight": 1,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "Bold",
+        "Body",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "5,15": 1,
+      "8,15": 2,
+      "10,18": 3,
+      "19,27": 4,
+      "19,33": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "5,15,3,23",
+    "8,15,2,13",
+    "10,18,8,19",
+    "19,27,2,5",
+    "19,33,2,5"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "DisplayName": "背景画像2",
+      "StyleInfo": {
+        "Fill": "#FFFCFCFC"
+      },
+      "IsAutomaticFill": false,
+      "Name": "ecdafa30-aedd-4aee-9c17-dde298d66828.png",
+      "Location": "20,60",
+      "Size": "20,20"
+    },
+    {
+      "DisplayName": "背景画像1",
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "ceb28d52-85eb-4188-a272-9c46f964710c.png",
+      "Location": "253,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "masterpagewithoutmenu",
+    "MobilePageName": "FGC_メールサブスクリプション_モバイル",
+    "Title": "通知設定 - 不具合管理",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//N79QAMO7YIEHopORz2oWM84yCQMtLhu9bbx+HotlDdrJ6ho03KVumavCl1AwvXdw7ySgTn2Dv2mVazgAKmw+EbTrStFtQEW4lOONBUJJw+y6yALi7Hlp50zx5T5d05L7yBPipJHQrNhJIFU8iT5VU33UBYD4/MzJqoJ7jgzi3VY8pRf6hOygBeyHKXEjqkzZ1sRocp3IXau+Xpm+iNhVEVTt523QAnSBWqzy/9lsYFUIMoYMjJG36KHaWxooKCvQjIcsj/16cztq0YwaqiGQNvZkh4k/UkOSR2nK854minWRh/XzwxXDr+ji3QmHpurayddMeaUWTR0Jv7lt+MOovr8PZ4XUH+XH4eEE5CWA9VnadBqoE+XkN+MhL5bqyC1v/SD2jKb0wgwso0UAG5kBdo9G63mleTCjRGr4mIqUoindYFI5doPyk5OCbSTL+hKSLtRBkQpckCRFVfaJ9eWtXbk2T8bu4ogZq+KrpPhKRnpc3THOnIqAeFpsmM+4nZBQUME5wi8FsaE2o92ccKI9hFrwRC3STKL+PljdUJHL1n+jw33Krc3qkkTr6jmKLTLTu+u6qJEXZdp802mgMHYaYEe9HK7Yn1V29gCzK//s7zxlyHX+098ebqJw0H/p40qr6udTmSyFujuI3Jccub4EssfFNP+IGOtTcg+acC94gYVdb+me5KVCv7DwV/rJ2Y20+wDaof029osFHD89uDKn2vUYFl6QaJTrMlAVQG3JMLbol6Gmxd1UokGOC9FOCU5SyVtBpPJaQu9XDbVTX/Z2ZRjxxdvERTyUBF32AlZ9R7BRX/KXKSan/lwfoM35/suPvjHJen1ZgcVm92N5ReL6pN7T74AhODFB0tzBsSimmvAQK1WOXvN8Yt3Cp7bErd/PSXuGy8Vr1cpG8Mnv3k5c6Q==|920

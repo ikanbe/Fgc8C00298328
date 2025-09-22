@@ -1,0 +1,25 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "C(U5&eXbCEJB"
+  },
+  "ListviewLoadingIndicatorSettings": {},
+  "IsPageInContainerBackgroundHardCodeWhite": true,
+  "WebSitePort": 31481,
+  "UserServicePort": 41442,
+  "NotAllowAnonymousAccessData": true,
+  "NotAllowModifyDatabaseByJsApi": false,
+  "NotAllowSendMailByJsApi": false,
+  "StartPage": "help",
+  "StartDateFiscalYear": 4,
+  "FocusMoveMode": 0,
+  "MaxRowCount": 10000000,
+  "PageResponsiveMode": 2,
+  "AuditingList": {
+    "Bug": 0,
+    "ユーザー情報ビュー": 0,
+    "BugCategory": 0,
+    "BugHistory": 0,
+    "BugPriority": 0,
+    "BugStatus": 0
+  }
+}

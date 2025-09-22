@@ -1,0 +1,352 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 21
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 120.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      34,
+      35
+    ],
+    "Count": 36
+  },
+  "AttachInfos": {
+    "3,34": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "Bug",
+        "RowIndex": 3,
+        "ColumnIndex": 34,
+        "ColumnCount": 2,
+        "RowCount": 7,
+        "ColumnOperation": 2,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "リストビュー1",
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "Condition1": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "Condition1": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "Bug",
+                  "ColumnName": "AssignTo",
+                  "AttachType": {
+                    "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
+                    "UserColumnAttachType": 1
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=drilldownstatus!c担当者"
+                }
+              },
+              "Condition2": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "Bug",
+                  "ColumnName": "FGC_Creator"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=drilldownstatus!c作成者"
+                }
+              }
+            },
+            "Condition2": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "Bug",
+                "ColumnName": "StatusID"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=drilldownstatus!cステータス"
+              }
+            }
+          },
+          "Condition2": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "Bug",
+              "ColumnName": "FGC_CreateDate"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=drilldownstatus!c作成日"
+            }
+          }
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "4,34": {
+      "BindingInfo": {
+        "TableName": "Bug",
+        "ColumnName": "StatusID",
+        "RelationBinding": {
+          "RelatedTable": "BugStatus",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "Name"
+        }
+      }
+    },
+    "4,35": {
+      "BindingInfo": {
+        "TableName": "Bug",
+        "ColumnName": "Count"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 16.0,
+        "FontWeight": 0,
+        "Foreground": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "#FF394047",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "5,34,5,2"
+  ],
+  "Charts": [
+    {
+      "ChartType": 22,
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "DataSeries": [
+        {
+          "Values": [
+            105.0,
+            210.0,
+            315.0
+          ],
+          "Name": "Count",
+          "MarkerSize": "7,7",
+          "DataPoints": [
+            {
+              "StyleInfo": {
+                "Fill": "Accent 1",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            },
+            {
+              "PointIndex": 1,
+              "StyleInfo": {
+                "Fill": "Accent 2",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            },
+            {
+              "PointIndex": 2,
+              "StyleInfo": {
+                "Fill": "Accent 3",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            },
+            {
+              "PointIndex": 3,
+              "StyleInfo": {
+                "Fill": "Accent 4",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            },
+            {
+              "PointIndex": 4,
+              "StyleInfo": {
+                "Fill": "Accent 5",
+                "StrokeDashType": 8,
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              },
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false
+            }
+          ]
+        }
+      ],
+      "XAxises": [
+        {
+          "Items": [
+            "オープン",
+            "修正済み",
+            "新規"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.5
+        }
+      ],
+      "YAxises": [
+        {
+          "Items": [
+            0.0,
+            50.0,
+            100.0,
+            150.0,
+            200.0,
+            250.0,
+            300.0,
+            350.0
+          ],
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 50.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 10.0
+        },
+        {
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.02,
+          "Visible": false,
+          "AxisPosition": 1
+        }
+      ],
+      "Legend": {},
+      "PlotArea": {},
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "ChartName": "Chart1",
+        "DataSeriesMapping": [
+          {
+            "SheetName": "drilldownstatus",
+            "ListViewName": "リストビュー1",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=drilldownstatus!AJ5"
+            }
+          }
+        ],
+        "ItemsMapping": {
+          "SheetName": "drilldownstatus",
+          "ListViewName": "リストビュー1",
+          "ListViewColumnFormula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=drilldownstatus!AI5"
+          }
+        }
+      },
+      "Name": "Chart1",
+      "Location": "19,59",
+      "Size": "643,343"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "c担当者",
+      "Formula": "drilldownstatus!$AI$12"
+    },
+    {
+      "Name": "c作成者",
+      "Formula": "drilldownstatus!$AI$13"
+    },
+    {
+      "Name": "cステータス",
+      "Formula": "drilldownstatus!$AI$14"
+    },
+    {
+      "Name": "c作成日",
+      "Formula": "drilldownstatus!$AI$15"
+    }
+  ]
+}//eJTIfaX+Sx0wJavHG3Sjqi1XWb4KVuXfysf6wkHg3zF/6zJgodrpBEE0ANle5UGtA3X+twLJ33N/d6mUYxScsVhL1Au8E1OEX75pISK2MO6vFPCH2ORyQTT4DU3KknG/+//MGZCmVEvCGuQY9Iz0yjDmDIaQnTMYdXcjrkeoJHthKPJNV0iwJhhwA2D7+NZgz7EnoPMfJbO38vCawQp2MzIicmNJ14LqJ+91CHFXSIa/RyU1Q+KtUNaHK1VdXHwr5J2tqboX0CFRphuhmSKooEBQ7Z8KeNSpNy1Yge0SRKaXgX4nMnUV8Gkqem7hB7fwQkjxvw+BflQqtthUqZC1IpV9cBJbVpIFKATq6zniDHjACxiOvirfYIfJ2VyKTyvGCe33UJQnYVGib0RmBjX9vWtVLNanHAfgCTFbSiiYBhQXe2YBzuvms39cyKds0SOn7C9zHcWe2mN4j9TivU4eczHZFsWgOaSZ1N9TIKR/oB2WASrkqtF6HM6Rx2wzRpO31bGjFJTVKR+DYk4/16HRaSVdV25w78DfosxZUrMyq4txRqS37wQRSNIWC6pthads+cO72jR4rL+hDL+wGEBsYpWIJwKMoq+RhxwpFjzOtrQ1zYte1w4sXvT0itHhYUHWpi/fBM2dVccIq6tgo8+3oXcy5FVYd3ZH+/s/SiwUjJ/aE9jX+sH2kklVgAu8zzlLPrNNBdEYIs6IVhTg0wSMoVJi5q/R75BYcSNrs/ZWTN7TSFRaTE+TIWqOujAnO7LV2a3fvcO4vS9HwslKG0TyUVNwjOAFzJjdyA4lsU60+k8WzH3LlveZZO0W5R/4N22h08+eHTVzw7i2TGFXX4ig7Dle4gXeZTlKCfFug9aoPjd0u/+ndSdUWFh7XlnEPZ56dDSZpCsghxf6RMlfPGoIvA==|920
